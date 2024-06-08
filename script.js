@@ -1,5 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     const editor = document.getElementById('editor');
-    const preFilledText = "This is the pre-filled text. You can edit this as needed.";
+    const preFilledText = "
+              _         _
+  __   ___.--'_`.     .'_`--.___   __
+ ( _`.'. -   'o` )   ( 'o`   - .`.'_ )
+ _\.'_'      _.-'     `-._      `_`./_
+( \`. )    //\`         '/\\    ( .'/ )
+ \_`-'`---'\\__,       ,__//`---'`-'_/
+  \`        `-\         /-'        '/
+   `                               '";
     editor.textContent = preFilledText; // Use textContent to set non-editable text
 });
