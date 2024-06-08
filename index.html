@@ -17,17 +17,18 @@
             height: 100vh;
             padding: 10px;
             box-sizing: border-box;
-            border: none;
             font-size: 16px;
             line-height: 1.5;
             background-color: black; /* Set editor background to black */
             color: red; /* Set editor text color to red */
-            caret-color: red; /* Set cursor color to red */
+            white-space: pre-wrap; /* Preserve whitespace and line breaks */
+            overflow: auto; /* Enable scrolling if text overflows */
         }
     </style>
 </head>
 <body>
-    <textarea class="editor" id="editor"></textarea>
+    <div class="editor" id="editor"></div>
     <script src="script.js"></script>
 </body>
 </html>
+
