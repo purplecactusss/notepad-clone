@@ -1,14 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
     const editor = document.getElementById('editor');
-    const preFilledText = `
-               _         _
-  __   ___.--'_\`.     .'\`_--.___   __
- ( _\`.'. -   'o\` )   ( 'o\`   - .\`.'_ )
- _\\.'_'      _.-'     \`-._      \`_\`./_
-( \`. )    //\`         '/\\    ( .'/ )
- \\_\`-'`---'\\\\__,       ,__//\`---'\`-'_/
-  \\\`        \`-\         /-'        '/
-   \`                               '
-   `; // Multiline string containing the ASCII art
+    const preFilledText = "06.14.2024 21.00 10 paces left of LEFT fan fan entrance";
     editor.textContent = preFilledText; // Use textContent to set non-editable text
 });
